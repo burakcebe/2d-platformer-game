@@ -188,7 +188,7 @@ animations = [{
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tqm6u"]
 radius = 32.0
-height = 96.0
+height = 80.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
@@ -201,5 +201,5 @@ animation = &"jumping"
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(96, 80)
+position = Vector2(96, 88)
 shape = SubResource("CapsuleShape2D_tqm6u")
